@@ -1,5 +1,5 @@
 {
-    "name": "minivel/minivel",
+    "name": "laraminivel/minivel",
     "license": "mit",
     "autoload": {
         "psr-4": {
