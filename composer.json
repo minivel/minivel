@@ -1,6 +1,7 @@
 {
     "name": "laraminivel/minivel",
-    "license": "mit",
+    "license": "MIT",
+    "type": "project",
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -14,11 +15,12 @@
             "email": "imohammadd@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
-        "laravel/framework": "^13.0@dev",
-        "vlucas/phpdotenv": "^5.6@dev",
+        "laravel/framework": "^12.0",
+        "vlucas/phpdotenv": "^5.6",
         "illuminate/database": "*",
-        "symfony/console": "7.4.x-dev"
+        "symfony/console": "^7.3"
     }
 }
