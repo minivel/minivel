@@ -1,0 +1,24 @@
+{
+    "name": "imohammadd/minivel",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mohammad Mohammadi",
+            "email": "imohammadd@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel/framework": "^13.0@dev",
+        "vlucas/phpdotenv": "^5.6@dev",
+        "illuminate/database": "*",
+        "symfony/console": "7.4.x-dev"
+    }
+}
